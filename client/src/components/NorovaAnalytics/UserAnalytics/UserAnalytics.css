@@ -1,0 +1,95 @@
+.user-analytics {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.user-analytics select {
+    font-family: 'Open Sans', sans-serif;
+    padding: 4px 0;
+    font-size: 20px;
+    background: inherit;
+    border: none;
+    border-bottom: 0.5px solid rgba(0, 0, 0, 0.5);
+    outline: unset;
+    height: 100%;
+    width: 100%;
+    border-radius: 0;
+}
+
+.user-analytics .flex-row button {
+    cursor: pointer;
+    padding: 6px 0;
+    border: 1px solid transparent;
+    border-radius: 0;
+    background-color: transparent;
+    transition: border 100ms ease-in;
+    outline: none;
+    font-size: 16px;
+}
+
+.user-analytics .flex-row button:disabled {
+    cursor: not-allowed;
+}
+
+.user-analytics .flex-row button:disabled:hover {
+    border: 1px solid transparent;
+}
+
+.user-analytics .flex-row button:hover {
+    content: '';
+    border-bottom: 1px solid;
+}
+
+.user-analytics select.no-arrow {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    text-indent: 4px;
+    text-overflow: '';
+}
+
+.user-analytics select.no-arrow::-ms-expand {
+    display: none;
+}
+
+.user-analytics select:disabled {
+    cursor: not-allowed;
+}
+
+.route__details {
+    margin: 10px 0 0 0;
+}
+
+.route__details ul {
+    font-size: 18px;
+    width: 100%;
+}
+
+.route__details ul li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.route__details ul li p {
+    margin: 0;
+}
+
+.route__details ul li label {
+    font-size: 18px;
+}
+
+.route__details ul:first-of-type {
+    margin-right: 2rem;
+}
+
+@media (max-width: 425px) {
+    .user-analytics select {
+        font-size: 15px;
+    }
+    .route__details ul li label {
+        font-size: 14px;
+    }
+    .route__details ul {
+        font-size: 14px;
+    }
+}

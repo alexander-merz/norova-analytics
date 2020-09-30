@@ -1,0 +1,41 @@
+.weekday-picker {
+    cursor: default;
+    position: relative;
+    width: auto;
+    height: auto;
+}
+
+.weekday-picker__head {
+    background-color: #008b58;
+    padding: 1rem;
+    text-shadow: 0 0 10px black;
+}
+
+.weekday-picker__head h1 {
+    text-align: center;
+    color: white;
+    margin: 0;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 20px;
+}
+
+.weekday-picker__body {
+    display: flex;
+}
+
+.weekday-picker__body .weekday {
+    font-size: 20px;
+    width: 100%;
+    text-align: center;
+    padding: 1rem 0;
+    cursor: pointer;
+    border: 6px solid white;
+    transition: background-color 100ms;
+}
+
+.weekday-picker__body .weekday.active {
+    background-color: var(--weekday-color);
+    color: white;
+    text-shadow: 0 0 10px black;
+}

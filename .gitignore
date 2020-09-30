@@ -1,0 +1,8 @@
+client/build
+client/node_modules
+server/dist
+server/node_modules
+server/.env
+server/src/api
+server/src/maps
+server/src/queries

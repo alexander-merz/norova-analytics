@@ -1,0 +1,23 @@
+.color-picker-container {
+    height: 45px;
+    width: 45px;
+    margin-left: -100px;
+}
+.color-picker-container input[type='color'] {
+    visibility: hidden;
+}
+.color-picker {
+    border-radius: 50%;
+    height: 100%;
+    width: 100%;
+    animation: toRectangle 200ms linear forwards;
+}
+
+@keyframes toRectangle {
+    from {
+        border-radius: 50%;
+    }
+    to {
+        border-radius: 0;
+    }
+}

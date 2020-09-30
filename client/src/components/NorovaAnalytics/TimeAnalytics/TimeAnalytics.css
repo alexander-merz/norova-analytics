@@ -1,0 +1,96 @@
+@import '~react-datepicker/dist/react-datepicker.css';
+
+.time-analytics {
+    height: 100%;
+    width: auto;
+}
+
+.react-datepicker {
+    height: inherit;
+    width: auto;
+    display: flex;
+    justify-content: center;
+    border-radius: 0;
+    border: none;
+}
+
+.react-datepicker__header {
+    background-color: #008b58;
+}
+
+.react-datepicker__current-month,
+.react-datepicker-time__header,
+.react-datepicker-year-header,
+.react-datepicker__day-name {
+    color: white;
+}
+
+.react-datepicker__header {
+    border-radius: 0;
+}
+
+.react-datepicker__month-container {
+    width: 100%;
+}
+
+.react-datepicker__navigation--previous {
+    border-right-color: white;
+}
+
+.react-datepicker__navigation--next {
+    border-left-color: white;
+}
+
+.react-datepicker__day--selected,
+.react-datepicker__day--in-selecting-range,
+.react-datepicker__day--in-range,
+.react-datepicker__month-text--selected,
+.react-datepicker__month-text--in-selecting-range,
+.react-datepicker__month-text--in-range,
+.react-datepicker__quarter-text--selected,
+.react-datepicker__quarter-text--in-selecting-range,
+.react-datepicker__quarter-text--in-range,
+.react-datepicker__day--selected:hover,
+.react-datepicker__day--in-selecting-range:hover,
+.react-datepicker__day--in-range:hover,
+.react-datepicker__month-text--selected:hover,
+.react-datepicker__month-text--in-selecting-range:hover,
+.react-datepicker__month-text--in-range:hover,
+.react-datepicker__quarter-text--selected:hover,
+.react-datepicker__quarter-text--in-selecting-range:hover,
+.react-datepicker__quarter-text--in-range:hover {
+    background-color: #008b58;
+}
+
+.hour-selection {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.hour-selection > * {
+    margin: 0 3px;
+}
+
+.hour-selection select {
+    width: fit-content;
+}
+
+.hour-selection label {
+    text-align: center;
+    width: 2rem;
+    margin: 0;
+}
+
+.time-analytics .flex-row {
+    height: 50px;
+    padding: 0 2rem;
+}
+
+#togglePeriod {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 100%;
+}

@@ -1,0 +1,33 @@
+.spatial-analytics {
+    height: auto;
+    width: auto;
+}
+
+.spatial-analytics__head {
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+    height: 70px;
+}
+
+.spatial-analytics__head label {
+    width: 100%;
+    text-align: center;
+}
+
+.spatial-analytics__head > div {
+    height: auto;
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.spatial-analytics__head div h3 {
+    margin: 0;
+}
+
+.spatial-analytics__head div span {
+    color: rgb(120, 120, 120);
+}

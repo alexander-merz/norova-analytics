@@ -1,0 +1,1 @@
+export const objectFromEntries = (arr: any[]) => Object.assign({}, ...Array.from(arr, ([k, v]) => ({[k]: v}) ));

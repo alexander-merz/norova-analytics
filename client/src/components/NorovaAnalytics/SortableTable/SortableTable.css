@@ -1,0 +1,48 @@
+.sortable-table {
+    cursor: default;
+    height: 100%;
+    width: 100%;
+    max-width: 40vw;
+    overflow-y: auto;
+    text-align: center;
+    border-spacing: 0;
+    table-layout: fixed;
+}
+
+.sortable-table thead tr {
+    width: auto;
+}
+
+.sortable-table thead tr th {
+    position: inherit;
+    font-size: 16px;
+    font-weight: 900;
+    background-color: #008b58;
+    color: white;
+    padding: 12px 0;
+    height: 1rem;
+    width: auto;
+}
+
+.sortable-table tbody tr.active {
+    background-color: rgba(128, 182, 40, 0.6);
+}
+
+.sortable-table tbody tr.active:hover {
+    background-color: rgba(128, 182, 40, 0.6);
+}
+
+.sortable-table tbody tr:not(.active) {
+    background-color: transparent;
+}
+
+.sortable-table tbody td {
+    font-size: 14px;
+    max-height: 20px;
+    padding: 8px;
+    margin: 0;
+}
+
+.sortable-table tbody tr:hover {
+    background-color: rgba(128, 182, 40, 0.2);
+}
